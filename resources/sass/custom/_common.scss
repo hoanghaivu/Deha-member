@@ -1,0 +1,157 @@
+// Begin margin all
+.m15 {
+	margin: 15px;
+}
+// End margin all
+
+// Begin margin top
+.m15t {
+	margin-top: 15px;
+}
+.m50t {
+	margin-top: 35px;
+}
+// End margin top
+
+// Begin margin right
+.m5r {
+	margin-right: 5px;
+}
+.m10r {
+	margin-right: 10px !important;
+}
+.m15r {
+	margin-right: 15px;
+}
+// End margin right
+
+// Begin margin bottom
+.m15b {
+	margin-bottom: 15px;
+}
+// End margin bottom
+
+// Begin margin left
+.m15l {
+	margin-left: 15px;
+}
+// End margin left
+
+// Begin padding all
+.p15 {
+	padding: 15px;
+}
+// End padding all
+
+// Begin padding top
+.p15t {
+	padding-top: 15px;
+}
+// End padding top
+
+// Begin padding right
+.p15r {
+	padding-right: 15px;
+}
+// End padding right
+
+// Begin padding bottom
+.p15b {
+	padding-bottom: 15px;
+}
+// End padding bottom
+
+body {
+    font-size: 14px;
+}
+
+.menu-sidebar {
+	.logo {
+		a {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+	}
+}
+
+.page-container {
+	padding-left: 250px;
+}
+
+.header-mobile {
+	.header-mobile-inner {
+		.logo {
+			img {
+				width: 100px;
+			}
+		}
+	}
+}
+
+.main-content {
+	padding-top: 70px;
+	padding-bottom: 10px;
+}
+
+.header-desktop {
+	left: 250px;
+	height: 55px;
+}
+
+.header-wrap {
+	width: 100%;
+}
+
+.header-button {
+	float: right;
+}
+
+.menu-sidebar {
+	width: 250px;
+	.logo {
+		height: 55px;
+	}
+}
+
+.table-earning thead th {
+	font-size: 14px;
+	padding: 15px;
+}
+
+.table-earning tbody td {
+	padding: 10px 15px;
+}
+
+.hover-pointer {
+	cursor: pointer;
+}
+
+.paginate-right {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.no-data {
+	text-align: center;
+}
+
+.message-validate {
+	font-size: 12px;
+	font-style: italic;
+	color: $colorCharacterRequire;
+}
+
+.character-require {
+	color: $colorCharacterRequire;
+}
+
+.character-add {
+	color: $colorCharacterAdd;
+}
+
+.bgModalTitle {
+	background: #007bff;
+	color: #ffffff !important;
+}
